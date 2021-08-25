@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Portfolio</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header">
+        <a href="index.html" class="logo">Project 1</a>
+      </header>
+
+      <!-- Nav -->
+      <nav id="nav">
+        <ul class="links">
+          <li><a href="index.html">Return to Main page</a></li>
+        </ul>
+        <ul class="icons">
+          <li>
+            <a href="#" class="icon brands fa-linkedin"
+              ><span class="label">Linkaden</span></a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/ryanlow1111" class="icon brands fa-github"
+              ><span class="label">GitHub</span></a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Main -->
+      <div id="main">
+        <!-- Post -->
+        <section class="post">
+          <header class="major">
+            <h1>
+              Project 1<br />
+              Accommodation Booking App
+            </h1>
+          </header>
+
+          <!-- Text stuff -->
+          <h2>Overview</h2>
+          <p>
+            This application is built by React Native CLI. User able to search
+            accommodation and book the accommodation. Firestore is used as the backend of this application.
+          </p>
+          
+          <header>
+            <h2>Main screen</h2>
+            <img src="images/project1/ui1.png" alt="" />
+            <p>The application will start on this screen.</p>
+          </header>
+          <p>
+            User able to use search bar which located in top screen to search accommodation. 
+            Bottom-tab navigation is used to navigate between main screen and profile screen.
+          </p>
+
+          <header>
+            <h2>Location search</h2>
+            <img src="images/project1/ui2.png" alt="" />
+            <p>User will direct to this screen after tap search bar from main screen. User able to search the location they wanted.</p>
+          </header>
+          
+          <header>
+            <h2>Guests screen</h2>
+            <img src="images/project1/ui3.png" alt="" />
+            <p>User choose the amount of guests in this screen. User cannot enter -1 amount of guests.</p>
+          </header>
+          
+          <header>
+            <h2>List of Location</h2>
+            <img src="images/project1/ui4.png" alt="" />
+            <p>The list of accommodation is stored in firestore and is render with flatlist.</p>
+          </header>
+
+          <header>
+            <h2>Details of accommodation</h2>
+            <img src="images/project1/ui5.png" alt="" />
+            <p>Accommodation details will get from firestore and displayed in this screen.</p>
+          </header>
+          <p>User able to tap the 'Book' button to make booking.</p>
+
+          <header>
+            <h2>Profile</h2>
+            <img src="images/project1/ui8.png" alt="" />
+            <p>Once user tap on the 'Book' button, an alert will shown if the booking is succesful.</p>
+          </header>
+          <p>Booking details will store into the firebase.</p>
+
+          <header>
+            <h2>Login</h2>
+            <img src="images/project1/ui6.png" alt="" />
+            <p>User able to login thier account. AsyncStorage is used to store user login in the local storage.</p>
+          </header>
+          
+          <header>
+            <h2>Profile</h2>
+            <img src="images/project1/ui9.png" alt="" />
+            <p>Profile page will display the user name and their booking list.</p>
+          </header>
+          <p>User able to tap the accommodation they booked to view the details of the accommodation</p>
+          
+          <header>
+            <h2>Accommodation details from booking List</h2>
+            <img src="images/project1/ui10.png" alt="" />
+            <p>Accommodation deatils after user tap the accommodation in booking list.</p>
+          </header>
+          <p>User can cancel the booking by tap 'Cancel Book' button in the botttom of the screen.</p>
+
+          <header>
+            <h2>Cancel Booking</h2>
+            <img src="images/project1/ui11.png" alt="" />
+            <p>An alert will shown if cancel booking is succesful.</p>
+          </header>
+          <p>Booking details will be removed from firestore.</p>
+
+        </section>  
+
+      
+      
+    </div>
+    <footer id="footer">
+        <section class="split contact">
+          <section>
+            <h3>Email</h3>
+            <p>junyen555@1utar.my</p>
+          </section>
+          <section>
+            <h3>Social</h3>
+            <ul class="icons alt">
+              <li>
+                <a href="#" class="icon brands alt fa-linkedin"
+                  ><span class="label">Linkedin</span></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/ryanlow1111"
+                  class="icon brands alt fa-github"
+                  ><span class="label">GitHub</span></a
+                >
+              </li>
+            </ul>
+          </section>
+        </section>
+      </footer>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
